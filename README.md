@@ -21,7 +21,7 @@ DATA_DIR="$DIR/[YOUR_DATA_DIR]/[YOUR_FILE]"
 ```bash
 
 # Clone the repository
-   git clone https://github.com/yourusername/bamtool.git
+   git clone https://github.com/elforjani13/bamtool.git
    cd bamtool
    
 # Build the Rust program
