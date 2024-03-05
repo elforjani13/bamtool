@@ -14,7 +14,10 @@ In the `bin.sh` script, there is a configuration section where you need to set u
 
 ```bash
 # Define the data directory
-DATA_DIR="$DIR/[YOUR_DATA_DIR]/[YOUR_FILE]"
+DATA_DIR="$DIR/"
+
+# Define the centromeres file path
+CENTROMERES="$DIR/"
 ```
 ## Building and Running
 
@@ -28,4 +31,4 @@ DATA_DIR="$DIR/[YOUR_DATA_DIR]/[YOUR_FILE]"
    cargo build
    
 # Run the Bash script
-   ./bin.sh
+   ./bin.sh [sample_dir] [output_dir]
